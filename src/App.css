@@ -1,38 +1,284 @@
-.App {
-  text-align: center;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root {
+  --primary: #5e3bee;
+  --heading-color: #282938;
+  --bg-shade: #f5fcff;
+  --github: #4482ff;
+  --darkblue: #1c1e53;
+  --black: #000000;
+  --white: #ffffff;
 }
+*  {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font: 900;
+}
+/* #111828 */
+header ul li{
+  @apply px-3
+}
+.bg-primary1{
+  background-color: #000000d7;
+}
+.bg-primary{
+  background-color: #000000d7;
+}
+.bg-contact{
+  background-color: #000000d7;
+}
+.bg-secondary{
+  background: #465347;
+  background: linear-gradient(#264971, rgb(183, 158, 204) 0%, rgb(99, 159, 204) 50%, rgb(168, 109, 179) 100%);
+}
+.bg-btn{
+  background-color: #A16207;
+  border: 1px solid #dc9e47;
+}
+.bg-about{
+  background-color: burlywood;
+}
+.poppins-semibold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.rou{
+  border-radius: 230px;
+}
+.ho:hover{
+  background: linear-gradient(270deg, #d68214 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.moblie-nav{
+  @apply fixed top-14 left-0 border-b-2 bg-[#282828]  font-extrabold py-1 w-full h-[210px];
+}
+.moblie-nav  li{
+  @apply w-full  h-full text-center py-1 
+}
+.project-desc{
+  @apply absolute left-0 right-0 bottom-[0px] top-[0px] bg-primary1 opacity-0 duration-500 hover:opacity-100
+}
+.btn{
+  @apply bg-btn px-5 py-2 font-bold   hover:border-black    rounded;
+}
+html{
+  scroll-behavior: smooth;
+}
+.bg-btn2{
+  background-color: #A16207;
+  border: 1px solid #dc9e47;
+}
+.btn2{
+  @apply bg-btn2 px-5 py-2 font-bold   hover:border-black    rounded;
+}
+.ct-b{
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.gray{
+  background: linear-gradient(270deg, #d68214 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box{
+  /* border: 1px solid rgba(7, 7, 7, 0.385); */
+  background-color: rgba(0, 0, 0, 0.367);
+}
+/* skills css */
+.skills--section {
+  display: flex;
+  padding: 149.33px 85.33px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 106.667px;
+}
+.skills--section--heading {
+  color: var(--heading-color);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+}
+.skills--section--container {
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 42.6px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.skills--section--card {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+  border-radius: 10.6px;
+  background: var(--bg-shade);
+  min-height: 250px;
+}
+.skills--section--card:hover {
+  border-bottom: 4px solid var(--primary);
+}
+.skills--section--card:hover .skills--section--description {
+  color: var(--darkblue);
+}
+.skills--section--img {
+  display: flex;
+  padding: 13.3px;
+  justify-content: center;
+  align-items: center;
+  gap: 13.3px;
+  border-radius: 10.6px;
+  background: #f8f8f8;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+}
+.skills--section--card--content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+.skills--section--title {
+  color: var(--heading-color);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+}
+.skills--section--description {
+  color: var(--black);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+/* media qurrey */
+@media only screen and (max-width: 1800px) {
+  .hero--section--title {
+    font-size: 68px;
+    line-height: 70px;
+  }
+  .skills--section--title {
+    font-size: 28px;
+    line-height: 40px;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (max-width: 1600px) {
+  .skills--section--heading {
+    font-size: 54px;
+    line-height: 70px;
+  }
+  .skills--section--container {
+    gap: 16px;
+  }
+  .skills--section--card {
+    gap: 28px;
+  }
+  .skills--section--card--content {
+    gap: 20px;
+  }
+  .skills--section--title {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .skills--section--description {
+    font-size: 17.333px;
+    line-height: 27px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 1200px) {
+  .btn-outline-primary {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .hero--section {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 70px;
   }
+  .hero--section--title,
+  .hero--section-description,
+  .footer--content {
+    text-align: center;
+  }
+  .skills--section--container,
+  .about--section,
+  .portfolio--section--container,
+  .portfolio--container-box,
+  .footer--link--container,
+  .footer--items > ul,
+  .footer--content--container {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills--section,
+  .portfolio--container,
+  .hero--section--content,
+  .hero--section--content--box {
+    align-items: center;
+  }
+  .portfolio--container-box {
+    gap: 30px;
+  }
+  .skills--section,
+  .testimonial--section,
+  .contact--section,
+  .footer--container {
+    gap: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .about--section {
+    gap: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .testimonial--section--card {
+    padding: 25px;
+  }
+  .hero--section--title,
+  .skills--section--heading,
+  .sections--heading {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .hero--section--content--box {
+    gap: 10px;
+  }
+  .contact--form--container {
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer--social--icon > ul,
+  .footer--items > ul {
+    padding: 0;
+    align-items: center;
+  }
+  .divider {
+    margin: 20px;
+  }
+}
+.bar{
+  border-bottom: 1px solid red;
+  width: 120px;
+
+}
+.bar{
+  cursor: pointer;
 }
