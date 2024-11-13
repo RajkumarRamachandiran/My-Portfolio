@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.01cb583d.css",
+    "main.js": "/My-Portfolio/static/js/main.ff4378cb.js",
+    "static/media/project-1.png": "/My-Portfolio/static/media/project-1.891111330df0e705ab63.png",
+    "static/media/hero1.png": "/My-Portfolio/static/media/hero1.58ab79f263a9f3733400.png",
+    "static/media/abo.png": "/My-Portfolio/static/media/abo.f799f05ccc7139e7fa83.png",
+    "static/media/project-2.png": "/My-Portfolio/static/media/project-2.9174783f6beb55a87422.png",
+    "static/media/canva.png": "/My-Portfolio/static/media/canva.72741a0d1ad82489b07c.png",
+    "static/media/bb.jpg": "/My-Portfolio/static/media/bb.34f8f62935ae0ff6a28a.jpg",
+    "static/media/Picsart_24-11-08_18-32-32-729.png": "/My-Portfolio/static/media/Picsart_24-11-08_18-32-32-729.88f65f84473a74a74c90.png",
+    "static/media/RESUME.pdf": "/My-Portfolio/static/media/RESUME.ff09ce203bd6b8b2056e.pdf",
+    "static/media/backend.png": "/My-Portfolio/static/media/backend.0f82c92bfd5d7866e7a2.png",
+    "static/media/python.png": "/My-Portfolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/mysql.png": "/My-Portfolio/static/media/mysql.bdbd1eb709e4c13258d2.png",
+    "static/media/science.png": "/My-Portfolio/static/media/science.419488419ecd74c71f7b.png",
+    "static/media/web-design.png": "/My-Portfolio/static/media/web-design.f721d6300da36dde4a81.png",
+    "static/media/app-development.png": "/My-Portfolio/static/media/app-development.f9d169e80e84e333a6d1.png",
+    "static/media/framework.png": "/My-Portfolio/static/media/framework.7fc12216e1d0b25e3125.png",
+    "static/media/github.png": "/My-Portfolio/static/media/github.44eee0c4a6c25b0d7347.png",
+    "static/media/figma.png": "/My-Portfolio/static/media/figma.72fbc535ebe253a5dbc4.png",
+    "static/media/photoshop.png": "/My-Portfolio/static/media/photoshop.339f174c692e921a204a.png",
+    "static/media/django.png": "/My-Portfolio/static/media/django.839af12db5ed15668773.png",
+    "static/media/css-3.png": "/My-Portfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/bootstrap.png": "/My-Portfolio/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/js.png": "/My-Portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/tailwind-css.svg": "/My-Portfolio/static/media/tailwind-css.681db3393706b0b8d30fa63229e8ee85.svg",
+    "index.html": "/My-Portfolio/index.html",
+    "main.01cb583d.css.map": "/My-Portfolio/static/css/main.01cb583d.css.map",
+    "main.ff4378cb.js.map": "/My-Portfolio/static/js/main.ff4378cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01cb583d.css",
+    "static/js/main.ff4378cb.js"
+  ]
+}
