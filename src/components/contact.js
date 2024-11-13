@@ -58,7 +58,7 @@ const Contact = () => {
                     <a href="https://www.linkedin.com/in/rajkumar2207/" className=' text-white hover:text-blue-500'><i class="fa-brands fa-linkedin text-3xl"></i></a>
                  </div>
                 </div>
-                <div className='w-1/2 px-7 py-10'>
+                <div className='w-1/2 px-3 py-10'>
                     <form onSubmit={onSubmit} className=''>
                         {/* <label className='font-bold text-2xl'>Your name</label><br/> */}
                         <input  className='w-[335px] h-[40px] rounded p-3 outline-none ' type="text" placeholder='Name' name='name'/>

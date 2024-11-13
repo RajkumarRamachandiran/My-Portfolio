@@ -22,7 +22,7 @@ const Header = () => {
             <ul  onClick={()=>setToggleMenu(!toggleMenu)}className='flex flex-col text-white moblie-nav'>
             <li><a href='/'className='ho'>Ho<span className=''>m</span>e</a></li>
                 <li><a href='#about'className='ho'>Ab<span className=''>ou</span>t</a></li>
-                <li><a href='#resume' className='ho'>Resume</a></li>
+                <li><a href='#mySkills' className='ho'>Skills</a></li>
                 <li><a href='#projects'className='ho'>Pro<span className=''>ject</span>s</a></li>
                 <li><a href='#contact'className='ho'>Cont<span className=''>act</span></a></li>
             </ul>
